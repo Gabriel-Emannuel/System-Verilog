@@ -1,0 +1,20 @@
+module top_module (
+    input a,b,c,d 
+    output out, out_n
+    )
+
+    wire and_1;
+    wire and_2;
+    wire or_1;
+    wire not_1;
+
+    assign and_1 = a & b;
+    assign and_2 = c & d;
+
+    assign or_1 = and_1 | and_2;
+
+    assign out = or_1;
+
+    assign out_n = !or_1;
+
+endmodule
