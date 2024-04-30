@@ -6,13 +6,13 @@
     
 //     wire coutMiddle, coutIgnore;
     
-//     add16 manager1 (
-//         .a(a[15:0]),
-//         .b(b[15:0]),
-//         .cin(1'b0),
-//         .sum(sum[15:0]),
-// 		.cout(coutMiddle)
-//         );
+    // add16 manager1 (
+    //     .a(a[15:0]),
+    //     .b(b[15:0]),
+    //     .cin(1'b0),
+    //     .sum(sum[15:0]),
+	// 	.cout(coutMiddle)
+    //     );
                  
 // 	add16 manager2 (
 //         .a(a[31:16]),
